@@ -1,0 +1,1333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 12000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.links h1 {
+  color: orange;
+  font-size: 50px;
+  margin-top: 35px;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.hero-ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+   list-style: none;
+}
+
+
+
+#hlar h1{
+    display: flex;
+    justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+.hlarr{
+   text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: red 2px 2px 20px;
+}
+.section-motot{
+    position: absolute;
+    top: 40%;
+}
+
+.section-motot h1{
+    font-size: 70px;
+}
+
+.title-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+}
+
+.title-img img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* From Uiverse.io by fanishah */ 
+.card {
+ width: 12.5rem;
+ height: 17rem;
+
+ border-radius: 1rem;
+ border: #212121 0.2rem solid;
+ transition: all 0.4s ease-in;
+ box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+ margin-top: 80px;
+}
+
+.card:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.cards {
+ width: 12.5rem;
+ height: 17rem;
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 1rem;
+ border: #212121 0.2rem solid;
+ transition: all 0.4s ease-in;
+ box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+}
+
+.cards:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
+}
+
+
+.cardd-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cardd-hp h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.button{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 30px;
+}
+
+
+
+.moto-xarids{
+ 
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 50px;
+}
+
+.moto-xaridd{
+   box-shadow: red 2px 2px 20px;
+}
+
+.moto-xaridd h2  {
+   padding: 10px;
+}
+
+.moto-xaridd h3 {
+    padding: 10px;
+}
+
+
+.bosh-kiyimlar{
+    box-shadow:rgb(11, 151, 215) 2px 2px 20px;
+    margin-top: 100px;
+}
+
+
+
+
+.shlem-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 50px;
+   margin-top: 100px;
+}
+
+.shlem-shadow{
+    box-shadow: rgb(11, 151, 215) 2px 2px 20px;
+}
+
+.select-himoya-kiyim{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    box-shadow: chocolate 2px 2px 20px;
+}
+
+.select-himoya-kiyim h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lekin{
+    max-width: 200px;
+}
+
+
+
+/* From Uiverse.io by SouravBandyopadhyay */ 
+.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  width: 30rem;
+  height: 10rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+  --color: #32a6ff
+}
+
+.notification:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+ box-shadow: black 2px 20px 20px;
+  z-index: 2
+}
+
+.notification:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notification:hover:after {
+  transform: translateX(0.15rem)
+}
+
+.notititle {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notititle {
+  transform: translateX(0.15rem)
+}
+
+.notibody {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notibody {
+  transform: translateX(0.25rem)
+}
+
+.notiglow,
+.notiborderglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglow {
+  z-index: 3;
+}
+
+.notiborderglow {
+  z-index: 1;
+}
+
+.notification:hover .notiglow {
+  opacity: 0.1
+}
+
+.notification:hover .notiborderglow {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+
+/* From Uiverse.io by musashi-13 */ 
+@keyframes autoRun3d {
+  from {
+    transform: perspective(800px) rotateY(-360deg);
+  }
+  to {
+    transform: perspective(800px) rotateY(0deg);
+  }
+}
+
+@keyframes animateBrightness {
+  10% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(0.1);
+  }
+  90% {
+    filter: brightness(1);
+  }
+}
+
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.cardg{
+  width: 600px;
+  height: 800px;
+
+ border: #212121 0.2rem solid;
+ transition: all 0.4s ease-in;
+ box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+ margin-top: 80px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.cardg:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 5.5rem 0 5.5rem 0;
+}
+
+.cardd h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.cardd-hp{
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.cardd-hp h1 {
+  text-align: end;
+  font-size: 20px;
+}
+
+.bosh-kiyimlar h1 {
+  text-align: center;
+}
+
+.clo{
+  text-align: center;
+}
+
+.qolqob{
+  text-align: center;
+  box-shadow: green 2px 2px 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.one{
+  box-shadow: green 2px 2px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.one-one{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.cardg{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* From Uiverse.io by kat_2522 */ 
+.loader {
+  max-width: fit-content;
+  color: black;
+  font-size: 50px;
+  font-family: Mine;
+  position: relative;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.loader span {
+  animation: cut 2s infinite;
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.loader:hover {
+  color: #fcffdf;
+}
+.loader::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 6px;
+  border-radius: 4px;
+  background-color: yellow;
+  top: 0px;
+  filter: blur(10px);
+  animation: scan 2s infinite;
+  left: 0;
+  z-index: 0;
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.loader::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 4px;
+  background-color: black;
+  top: 0px;
+  animation: scan 2s infinite;
+  left: 0;
+  z-index: 1;
+  filter: opacity(0.9);
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes scan {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 54px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 54px;
+  }
+}
+@keyframes cut {
+  0% {
+    clip-path: inset(0 0 0 0);
+  }
+  25% {
+    clip-path: inset(100% 0 0 0);
+  }
+  50% {
+    clip-path: inset(0 0 100% 0);
+  }
+  75% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+
+
+
+
+/* From Uiverse.io by david-mohseni */ 
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 140px;
+  width: 100%;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #fff;
+}
+
+
+
+
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #1e293b;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 10px;
+    height: 700px;
+    color: white;
+
+}
+
+/* Info section */
+.contact-info {
+    flex: 1;
+}
+
+.info-title {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.info-text {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Form section */
+.contact-form {
+    flex: 1;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Button */
+.form-button {
+    width: 100%;
+    padding: 12px;
+    background: #38bdf8;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-button:hover {
+    background: #0ea5e9;
+}
+
+
+ul{
+  margin-top: 50px;
+}
+
+ 
+a {
+  padding: 15px 30px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  background: #1e1e1e;
+  cursor: pointer;
+  color: greenyellow;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+
+a:hover {
+  animation: a 0.5s 1 linear;
+}
+
+@keyframes a {
+  0% {
+    transform: scale(0.7, 1.3);
+  }
+
+  25% {
+    transform: scale(1.3, 0.7);
+  }
+
+  50% {
+    transform: scale(0.7, 1.3);
+  }
+
+  75% {
+    transform: scale(1.3, 0.7);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+.box{
+    background-image: url(https://media.istockphoto.com/id/597215746/photo/woman-drives-on-a-motorcycle-on-a-morning-highway.jpg?s=612x612&w=0&k=20&c=dmPniV_ZzQ0hBJaH0IYJp1detArWGeYN9QyLVYwO-LU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+
+
+.fooz{
+  background-color: black;
+}
+
+.foozer{
+  color: white;
+  padding: 0 20px;
+}
+
+.text h1 {
+  color: black;
+}
+
+.text-decoration{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+ background: linear-gradient( black, white, black);
+ height: 600px;
+}
+
+.text-decoration img {
+  width: 900px;
+}
+.text-decoration h1 span {
+  font-size:90px;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.logo {
+  color: orange;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px;
+  min-height: 90vh;
+}
+
+/* TEXT */
+.text {
+  max-width: 500px;
+}
+
+.text h4 {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.text h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.text h1 span {
+  color: orange;
+}
+
+.text p {
+  margin: 20px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.orange {
+  background: orange;
+  color: black;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+/* IMAGE */
+.image img {
+  width: 500px;
+}
+
+/* DECORATIVE SHAPE */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255,165,0,0.3), transparent);
+  bottom: 50px;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.left{
+  width: 40%;
+}
+
+.big-img{
+  width: 100%;
+}
+
+.about{
+  margin-top: 20px;
+}
+
+.about h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about h4{
+  color: orange;
+  margin-top: 15px;
+}
+
+.right-card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 60%;
+  padding: 0 190px;
+}
+
+.title{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card{
+  
+  background: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 350px;
+}
+
+.card h3{
+  color: orange;
+}
+.card img{
+  width: 300px;
+  margin-right: 20px;
+}
+
+.info p{
+  font-size: 14px;
+  color: #aaa;
+}
+
+button{
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  border-radius: 6px;
+ 
+}
+
+.hamma{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 100px;
+}
+
+.left{
+  width: 40%;
+}
+
+.big-img{
+  width: 100%;
+}
+
+.about-right{
+  margin-top: 200px;
+}
+
+.about-right h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-right h4{
+  color: orange;
+  margin-top: 15px;
+}
+
+.card-two  img{
+   width: 300px;
+   height: 200px;
+}
+
+
+.cardq{
+  
+  background: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 350px;
+}
+
+.cardq h3{
+  color: orange;
+}
+.cardq img{
+  width: 300px;
+  margin-right: 20px;
+}
+
+.info p{
+  font-size: 14px;
+  color: #aaa;
+}
+
+button{
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  border-radius: 6px;
+ 
+}
+
+.hamma{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 100px;
+}
+
+.left{
+  width: 40%;
+}
+
+.big-img{
+  width: 100%;
+}
+
+
+
+.cardq:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.cardq {
+ width: 400px;
+ height: 350px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 15px;
+ border: #212121 0.2rem solid;
+ transition: all 0.4s ease-in;
+ box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+}
+
+.cardq:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.cardq img{
+  width: 200px;
+  height: 200px;
+}
+.cardq-kiyim{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 60%;
+  padding: 0 190px;
+}
+
+
+.cardq-qolqob{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 60%;
+  padding: 0 190px;
+}
+
+.cardq-qolqoblar{
+   display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.cardq-qolqoblar img {
+   width: 550px;
+  height: 700px;
+}
+.card-qolqoblar{
+     display: flex;
+     justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card-qolqoblar img {
+  width: 550px;
+  height: 700px;
+}
+
+.boshkiyim h1{
+  color: orange;
+  margin-top: 40px;
+}
+.boshkiyim{
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardd h1 {
+  color: orange;
+}
+
+
+.kilns{
+  margin-bottom: 100px;
+}
+
+/* From Uiverse.io by pharmacist-sabot */ 
+/* --- Root Variables for the component --- */
+.glitch-form-wrapper {
+  --bg-color: #0d0d0d;
+  --primary-color: #00f2ea;
+  --secondary-color: #a855f7;
+  --text-color: #e5e5e5;
+  --font-family: "Fira Code", Consolas, "Courier New", Courier, monospace;
+  --glitch-anim-duration: 0.5s;
+}
+
+.glitch-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  background-color: #050505;
+}
+
+/* --- Card Structure --- */
+.glitch-card {
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 400px;
+  border: 1px solid rgba(0, 242, 234, 0.2);
+  box-shadow:
+    0 0 20px rgba(0, 242, 234, 0.1),
+    inset 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5em 1em;
+  border-bottom: 1px solid rgba(0, 242, 234, 0.2);
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.card-title svg {
+  width: 1.2em;
+  height: 1.2em;
+  stroke: var(--primary-color);
+}
+
+.card-dots span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-left: 5px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* --- Form Elements --- */
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  position: absolute;
+  top: 0.75em;
+  left: 0;
+  font-size: 1rem;
+  color: var(--primary-color);
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.form-group input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(0, 242, 234, 0.3);
+  padding: 0.75em 0;
+  font-size: 1rem;
+  color: var(--text-color);
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--primary-color);
+}
+
+.form-group input:focus + .form-label,
+.form-group input:not(:placeholder-shown) + .form-label {
+  top: -1.2em;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+.form-group input:focus + .form-label::before,
+.form-group input:focus + .form-label::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+}
+
+.form-group input:focus + .form-label::before {
+  color: var(--secondary-color);
+  animation: glitch-anim var(--glitch-anim-duration)
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.form-group input:focus + .form-label::after {
+  color: var(--primary-color);
+  animation: glitch-anim var(--glitch-anim-duration)
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+}
+
+@keyframes glitch-anim {
+  0% {
+    transform: translate(0);
+    clip-path: inset(0 0 0 0);
+  }
+  20% {
+    transform: translate(-5px, 3px);
+    clip-path: inset(50% 0 20% 0);
+  }
+  40% {
+    transform: translate(3px, -2px);
+    clip-path: inset(20% 0 60% 0);
+  }
+  60% {
+    transform: translate(-4px, 2px);
+    clip-path: inset(80% 0 5% 0);
+  }
+  80% {
+    transform: translate(4px, -3px);
+    clip-path: inset(30% 0 45% 0);
+  }
+  100% {
+    transform: translate(0);
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* --- Button Styling --- */
+.submit-btn {
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 25px var(--primary-color);
+  outline: none;
+}
+
+.submit-btn:active {
+  transform: scale(0.97);
+}
+
+/* --- Glitch Effect for Button --- */
+.submit-btn .btn-text {
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.2s ease;
+}
+
+.submit-btn:hover .btn-text {
+  opacity: 0;
+}
+
+.submit-btn::before,
+.submit-btn::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: var(--primary-color);
+  transition: opacity 0.2s ease;
+}
+
+.submit-btn:hover::before,
+.submit-btn:focus::before {
+  opacity: 1;
+  color: var(--secondary-color);
+  animation: glitch-anim var(--glitch-anim-duration)
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.submit-btn:hover::after,
+.submit-btn:focus::after {
+  opacity: 1;
+  color: var(--bg-color);
+  animation: glitch-anim var(--glitch-anim-duration)
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-group input:focus + .form-label::before,
+  .form-group input:focus + .form-label::after,
+  .submit-btn:hover::before,
+  .submit-btn:focus::before,
+  .submit-btn:hover::after,
+  .submit-btn:focus::after {
+    animation: none;
+    opacity: 0;
+  }
+
+  .submit-btn:hover .btn-text {
+    opacity: 1;
+  }
+}
